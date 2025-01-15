@@ -1,0 +1,86 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "Motel One Stuttgart-Bad Cannstatt",
+            "Address": "Badstraße 20, 70372 Stuttgart"
+        },
+        "Guest Information": {
+            "Name": "Apimeister consulting GmbH",
+            "Address": "Friedrichstrasse 123, 10117 Berlin, Germany"
+        },
+        "Invoice Information": {
+            "Date": "11.11.2019",
+            "Invoice number": "548113542",
+            "Reservation number": "548098589/1",
+            "Room": "330",
+            "Arrival": "11.11.2019",
+            "Departure": "12.11.2019"
+        },
+        "Charges": [
+            {
+                "Guest": "Apimeister consulting GmbH",
+                "Service": "Deposit 548113520/02 vom 11.11.19",
+                "VAT": null,
+                "Num": "-1",
+                "Price EUR": "90,50",
+                "Amount EUR": "-90,50"
+            },
+            {
+                "Guest": "Walter, Jens",
+                "Room": "330",
+                "From": "11.11.2019",
+                "To": "12.11.2019",
+                "Service": "Best Price including Breakfast",
+                "VAT": "19,00%",
+                "Num": "1",
+                "Price EUR": "90,50",
+                "Amount EUR": "90,50"
+            },
+            {
+                "Service": "Frühstück",
+                "VAT": "19,00%",
+                "Num": "1",
+                "Price EUR": "11,50",
+                "Amount EUR": "11,50"
+            },
+            {
+                "Service": "Lodging",
+                "VAT": "7,00%",
+                "Num": "1",
+                "Price EUR": "79,00",
+                "Amount EUR": "79,00"
+            }
+        ],
+        "Total Amount": {
+            "Currency": "EUR",
+            "Amount": "0,00"
+        },
+        "Payment Information": {
+            "Date": null,
+            "Payment": null,
+            "Card-Number": null,
+            "Amount Currency": null,
+            "Payment EUR": null
+        },
+        "Balance to pay": {
+            "Currency": "EUR",
+            "Amount": "0,00"
+        },
+        "VAT Information": {
+            "19,00 % (Mwst)": {
+                "Net Amount EUR": "0,00",
+                "VAT Amount EUR": "0,00",
+                "VAT Gross EUR": "0,00"
+            },
+            "7,00 % (Mwst)": {
+                "Net Amount EUR": "0,00",
+                "VAT Amount EUR": "0,00",
+                "VAT Gross EUR": "0,00"
+            }
+        },
+        "Agent": {
+            "Name": "Sarah Golombiewski",
+            "Position": "Front Office Agent"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "Mercure Hotel Bochum City",
+            "Address": "Massenbergstrasse 19-21, 44787 Bochum"
+        },
+        "Guest Information": {
+            "Name": "Herr Jens Walter"
+        },
+        "Invoice Information": {
+            "Rechnungs-Nr.": "HA007 - 123123 - 37816396",
+            "Zimmer Nr.": "1307",
+            "Anreise": "04.07.19",
+            "Abreise": "05.07.19",
+            "Seite": "1 von 1",
+            "Benutzer ID": "IWINKING",
+            "Datum": "05.07.19"
+        },
+        "Billing Information": {
+            "Charges": [
+                {
+                    "Datum": "04.07.19",
+                    "Beschreibung": "Übernachtung",
+                    "Belastung": "118.00",
+                    "Entlastung": null
+                },
+                {
+                    "Datum": "05.07.19",
+                    "Beschreibung": "Mastercard",
+                    "Belastung": null,
+                    "Entlastung": "118.00"
+                }
+            ],
+            "Total": "118.00"
+        },
+        "Tax Details": {
+            "Umsatzsteuer Detail": [
+                {
+                    "Netto EUR": "110.28",
+                    "MwSt EUR": "7.72",
+                    "Brutto EUR": "118.00",
+                    "Total": "118.00"
+                }
+            ],
+            "Total inkl. MwSt": "110.28",
+            "MwSt 7%": "7.72",
+            "Saldo": "0.00 EUR"
+        }
+    }
+]

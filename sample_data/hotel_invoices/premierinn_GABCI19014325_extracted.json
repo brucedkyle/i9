@@ -1,0 +1,112 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "Hamburg City (Zentrum)",
+            "Address": "Willy-Brandt-Straße 21, 20457 Hamburg, Deutschland",
+            "Telephone": "+49 (0) 40 3039 379 0"
+        },
+        "Guest Information": {
+            "Name": "APIMEISTER CONSULTING GmbH",
+            "Contact Person": "Herr Jens Walter",
+            "Address": "Friedrichstr. 123, 10117 Berlin"
+        },
+        "Invoice Information": {
+            "Rechnungsnummer": "GABCI19014325",
+            "Rechnungsdatum": "23.09.19",
+            "Referenznummer": "GABCI05452127",
+            "Buchungsnummer": "GABRI5867",
+            "Ankunft": "23.09.19",
+            "Abreise": "27.09.19",
+            "Nächte": 4,
+            "Zimmer": 626,
+            "Kundennreferenz": null
+        },
+        "Charges": [
+            {
+                "Datum": "23.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Übernachtung",
+                "MwSt.%": "7,00",
+                "Betrag": "77,00",
+                "Zahlung": null
+            },
+            {
+                "Datum": "23.09.19",
+                "Uhrzeit": "16:36",
+                "Beschreibung": "Übernachtung",
+                "MwSt.%": "7,00",
+                "Betrag": "135,00",
+                "Zahlung": null
+            },
+            {
+                "Datum": "24.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Übernachtung",
+                "MwSt.%": "7,00",
+                "Betrag": "82,00",
+                "Zahlung": null
+            },
+            {
+                "Datum": "26.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Übernachtung",
+                "MwSt.%": "7,00",
+                "Betrag": "217,00",
+                "Zahlung": null
+            },
+            {
+                "Datum": "24.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Frühstücksbuffet",
+                "MwSt.%": "19,00",
+                "Betrag": "9,90",
+                "Zahlung": null
+            },
+            {
+                "Datum": "25.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Frühstücksbuffet",
+                "MwSt.%": "19,00",
+                "Betrag": "9,90",
+                "Zahlung": null
+            },
+            {
+                "Datum": "26.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Frühstücksbuffet",
+                "MwSt.%": "19,00",
+                "Betrag": "9,90",
+                "Zahlung": null
+            },
+            {
+                "Datum": "27.09.19",
+                "Uhrzeit": null,
+                "Beschreibung": "Frühstücksbuffet",
+                "MwSt.%": "19,00",
+                "Betrag": "9,90",
+                "Zahlung": "550,60"
+            }
+        ],
+        "Total": {
+            "Gesamt (Rechnungsbetrag)": {
+                "EUR": "550,60",
+                "Zahlung": "550,60"
+            },
+            "Offener Betrag": "0,00"
+        },
+        "Tax Summary": [
+            {
+                "MwSt.%": "19,00",
+                "Netto": "33,28",
+                "MwSt.": "6,32",
+                "Brutto": "39,60"
+            },
+            {
+                "MwSt.%": "7,00",
+                "Netto": "477,57",
+                "MwSt.": "33,43",
+                "Brutto": "511,00"
+            }
+        ]
+    }
+]

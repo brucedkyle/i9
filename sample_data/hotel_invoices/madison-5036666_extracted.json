@@ -1,0 +1,90 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "MADISON Hotel GmbH",
+            "Address": "Schaarsteinweg 4, 20459 Hamburg",
+            "Contact": {
+                "Phone": "+49-40-37 666-0",
+                "Fax": "+49-40-37 666-137",
+                "Email": "info@madisonhotel.de",
+                "Website": "madisonhotel.de"
+            }
+        },
+        "Guest Information": {
+            "Name": "Herr Jens Walter",
+            "Company": "APMeister Consulting GmbH",
+            "Address": "Friedrichstr. 123, 10117 Berlin"
+        },
+        "Invoice Information": {
+            "Rechnungs-Nr.": "503666",
+            "Datum": "21.06.19",
+            "Zimmer": "435",
+            "Anreise": "16.06.19",
+            "Abreise": "21.06.19",
+            "Seite": "1 of 1",
+            "Benutzer ID": "BD"
+        },
+        "Charges": [
+            {
+                "Datum": "16.06.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "17.06.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "18.06.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "19.06.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "20.06.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "21.06.19",
+                "Beschreibung": "Frühstück",
+                "Belastung": 20.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "21.06.19",
+                "Beschreibung": "Mastercard IFC CHECK#1000772",
+                "Belastung": null,
+                "Entlastung": 570.0
+            }
+        ],
+        "Summary": {
+            "Total Netto EUR": 530.83,
+            "MwSt. 19%": 101.17,
+            "MwSt. 7%": 514.02,
+            "Brutto EUR": 570.0,
+            "Total": 570.0,
+            "Saldo": 0.0
+        },
+        "Payment Information": {
+            "Kreditkarteninstitut": "XXXX-XXXX-XXXX-0502",
+            "Verfallsdatum": "XXXX",
+            "Terminal ID": "69284892",
+            "Beleg Nr.": "27411",
+            "Transaktion": "570.00",
+            "Genehmigter Betrag": "570.00",
+            "Genehmigungscode": "623737"
+        }
+    },
+    {}
+]

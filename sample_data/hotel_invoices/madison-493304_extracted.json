@@ -1,0 +1,106 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "MADISON Hotel GmbH",
+            "Address": "Schaarsteinweg 4, 20459 Hamburg",
+            "Contact": {
+                "Phone": "+49-40-37 666-0",
+                "Fax": "+49-40-37 666-137",
+                "Email": "info@madisonhotel.de",
+                "Website": "madisonhotel.de"
+            },
+            "Geschäftsführer": "Marlies Head, Thomas Kleinertz",
+            "AG Hamburg": "HRB 47881",
+            "VAT": "DE118 686 407",
+            "Bank": {
+                "Name": "HypoVereinsbank",
+                "BLZ": "200 300 00",
+                "Konto-Nr": "360 27 11",
+                "IBAN": "DE48 2003 0000 0036 0271 11",
+                "BIC": "HYVEDEMM300"
+            }
+        },
+        "Guest Information": {
+            "Name": "Herr Jens Walter",
+            "Company": "APImeiseter Consulting GmbH",
+            "Address": "Friedrichstr. 123, 10117 Berlin"
+        },
+        "Invoice Information": {
+            "Rechnungs-Nr.": "493304",
+            "Datum": "15.03.19",
+            "Zimmer": "315",
+            "Anreise": "10.03.19",
+            "Abreise": "15.03.19",
+            "Seite": "1 of 1",
+            "Benutzer ID": "KUE"
+        },
+        "Charges": [
+            {
+                "Datum": "10.03.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "11.03.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "12.03.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "13.03.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "14.03.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 189.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "15.03.19",
+                "Beschreibung": "Mastercard IFC",
+                "Belastung": 629.0,
+                "Entlastung": null
+            }
+        ],
+        "Summary": {
+            "Umsatzsteuer Detail": {
+                "Netto EUR": 587.85,
+                "MwSt. EUR": 41.15,
+                "Brutto EUR": 629.0
+            },
+            "Total": 629.0,
+            "Saldo": "0.00 EUR"
+        },
+        "Finanzamt": {
+            "Name": "Hamburg Mitte",
+            "Steuernummer": "4874/1011228"
+        },
+        "Kreditkartendetails": {
+            "Kreditkartennummer": "15484932",
+            "Benutzerkennung": "XXXX0000000005052",
+            "Verfallsdatum": "XX/XX",
+            "Terminal ID": "68264893",
+            "Beleg Nr.": "31933",
+            "Transaktionsbetrag": "629.00",
+            "Genehmigter Betrag": "629.00",
+            "Genehmigungsnummer": "624612"
+        }
+    },
+    {
+        "hotel_information": {
+            "name": "The Madison",
+            "location": "Hamburg"
+        },
+        "invoice_data": {}
+    }
+]

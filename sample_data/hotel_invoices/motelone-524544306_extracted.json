@@ -1,0 +1,85 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "Motel One Berlin-Tiergarten",
+            "Address": "An der Urania 12/14, 10787 Berlin"
+        },
+        "Company Information": {
+            "Name": "Apimeister Consulting GmbH",
+            "Address": "Friedrichstrasse 123, 10117 Berlin, Deutschland"
+        },
+        "Invoice Information": {
+            "Datum": "25.02.2019",
+            "Rechnungsnummer": "524544306",
+            "Reservierungsnummer": "524414809/1",
+            "Zimmer": "519",
+            "Anreise": "25.02.2019",
+            "Abreise": "27.02.2019"
+        },
+        "Guest Information": {
+            "Name": "Walter, Jens",
+            "Zimmer": "519",
+            "Aufenthalt": "25.02.2019 bis 27.02.2019"
+        },
+        "Charges": [
+            {
+                "Bezeichnung": "Best Public Rate mit Frühstück",
+                "MWST-Satz": null,
+                "Menge": "2",
+                "Einzelpreis EUR": "80,50",
+                "Gesamtpreis EUR": "161,00"
+            },
+            {
+                "Bezeichnung": "Frühstück",
+                "MWST-Satz": "19,00%",
+                "Menge": "2",
+                "Einzelpreis EUR": "11,50",
+                "Gesamtpreis EUR": "23,00"
+            },
+            {
+                "Bezeichnung": "Logis",
+                "MWST-Satz": "7,00%",
+                "Menge": "2",
+                "Einzelpreis EUR": "69,00",
+                "Gesamtpreis EUR": "138,00"
+            }
+        ],
+        "Saldo Leistungen": {
+            "Währung": "EUR",
+            "Betrag": "161,00"
+        },
+        "Zahlungen": [
+            {
+                "Datum": "25.02.2019",
+                "Zahlungsart": "Mastercard",
+                "Karten-Nr.": "****2825",
+                "Betrag Devisen": "-161,00",
+                "Zahlung EUR": null
+            }
+        ],
+        "Saldo Zahlungen": "-161,00",
+        "Rechnungsbetrag": "0,00",
+        "Steuerbeträge": [
+            {
+                "Steuersatz": "19,00%",
+                "Netto EUR": "19,33",
+                "Steuer EUR": "3,67",
+                "Brutto EUR": "23,00"
+            },
+            {
+                "Steuersatz": "7,00%",
+                "Netto EUR": "128,97",
+                "Steuer EUR": "9,03",
+                "Brutto EUR": "138,00"
+            }
+        ],
+        "WLAN Information": {
+            "AGB": "Einfach AGB bestätigen und lossurfen!",
+            "Support": "WLAN-Support gewünscht?",
+            "Hotline Deutschland": "0800-4357526",
+            "Hotline andere Länder": "+49-241-70539605"
+        },
+        "Manager": "Sebastian Gahm"
+    },
+    {}
+]

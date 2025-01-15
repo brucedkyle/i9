@@ -1,0 +1,136 @@
+[
+    {
+        "hotel_information": {
+            "name": "Hampton by Hilton Hamburg City Centre",
+            "address": "Nordkanalstrasse 18, 20097 Hamburg",
+            "phone": "+49(0)40-302372-0",
+            "fax": "+49(0)40-302372-100"
+        },
+        "guest_information": {
+            "name": "APIMEISTER CONSULTING GMBH",
+            "address": "FRIEDRICHSR. 123, 10117 BERLIN, GERMANY",
+            "confirmation_number": "87607957",
+            "guest_name": "JENS WALTER"
+        },
+        "invoice_information": {
+            "vat_invoice": "24361",
+            "arrival_date": "28/04/2019 23:53:00",
+            "departure_date": "30/04/2019",
+            "room_no": "119",
+            "adult_child": "1/0",
+            "room_rate": "102.00",
+            "rate_plan": "2G2",
+            "vat": "DE259895636",
+            "folio_no_che": "107155A"
+        },
+        "charges": [
+            {
+                "date": "28/04/2019",
+                "description": "Advance Deposit MC *2828",
+                "cashier_id": "GARO",
+                "ref_no": "331422",
+                "guest_charges": null,
+                "credit": "€221.00",
+                "balance": null
+            },
+            {
+                "date": "28/04/2019",
+                "description": "ADVANCED DEPOSIT DEBIT",
+                "cashier_id": "GARO",
+                "ref_no": "331424",
+                "guest_charges": "€221.00",
+                "credit": null,
+                "balance": null
+            },
+            {
+                "date": "28/04/2019",
+                "description": "ADVANCED DEPOSIT CREDIT",
+                "cashier_id": "GARO",
+                "ref_no": "331424",
+                "guest_charges": null,
+                "credit": "€221.00",
+                "balance": null
+            },
+            {
+                "date": "28/04/2019",
+                "description": "GUEST ROOM",
+                "cashier_id": "GARO",
+                "ref_no": "331455",
+                "guest_charges": "€97.05",
+                "credit": null,
+                "balance": null
+            },
+            {
+                "date": "28/04/2019",
+                "description": "BREAKFAST",
+                "cashier_id": "GARO",
+                "ref_no": "331455",
+                "guest_charges": "€14.95",
+                "credit": null,
+                "balance": null
+            },
+            {
+                "date": "29/04/2019",
+                "description": "GUEST ROOM",
+                "cashier_id": "FEBA",
+                "ref_no": "331959",
+                "guest_charges": "€114.05",
+                "credit": null,
+                "balance": null
+            }
+        ]
+    },
+    {
+        "hotel_information": {
+            "name": "Hampton by Hilton Hamburg City Centre",
+            "address": "Nordkanalstraße 18, 20097 Hamburg",
+            "phone": "+49(0)40-302372-0",
+            "fax": "+49(0)40-302372-100"
+        },
+        "guest_information": {
+            "company": "APIMEISTER CONSULTING GMBH",
+            "address": "FRIEDRICHSTR. 123, 10117 BERLIN, GERMANY",
+            "guest_name": "JENS WALTER"
+        },
+        "invoice_information": {
+            "invoice_number": "24361",
+            "confirmation_number": "87607597",
+            "vat_number": "DE25996536",
+            "folio_number": "107155 A"
+        },
+        "room_information": {
+            "room_number": "119",
+            "arrival_date": "28/04/2019 23:53:00",
+            "departure_date": "30/04/2019",
+            "adult_child": "1/0",
+            "room_rate": "102.00",
+            "rate_plan": "2G2"
+        },
+        "charges": [
+            {
+                "date": "29/04/2019",
+                "description": "BREAKFAST",
+                "cashier_id": "FEBA",
+                "ref_no": "331969",
+                "guest_charges": "64.95",
+                "credit": null,
+                "balance": "€0.00"
+            }
+        ],
+        "tax_summary": {
+            "trade_receivable_net_19%": "€8.32",
+            "trade_receivable_net_7%": "€0.00",
+            "trade_receivable_net": "€197.29",
+            "vat_19%": "€1.58",
+            "f&b_vat_7%": "€0.00",
+            "vat_7%": "€13.81",
+            "trade_receivables_incl_vat": "€221.00"
+        },
+        "payment_information": {
+            "approval_amount": "€221.00",
+            "appr_code": "491464",
+            "transaction_id": "331422",
+            "balance": "€221.00"
+        }
+    }
+]

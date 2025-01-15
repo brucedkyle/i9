@@ -1,0 +1,88 @@
+[
+    {
+        "Rechnungsadresse": {
+            "Name": "APimeister Consulting GmbH",
+            "Adresse": "Friedrichstrasse 123",
+            "Stadt": "10117 Berlin",
+            "Land": "Germany"
+        },
+        "Gastname": "Herr Jens Walter",
+        "Reservierungsnr.": "1221737070-1",
+        "Apartment Nr.": "420",
+        "Apartment Typ": "1-Bedroom",
+        "Anreisedatum": "31/03/2019",
+        "Abreisedatum": "05/04/2019",
+        "Rechnungsnr.": "083-72561",
+        "A/R Nr.": null,
+        "TO Reference No.": null,
+        "Rechnungsdatum": "05/04/19 - 09:46",
+        "Bediener": "DE-GB",
+        "Seite": "1 von 1",
+        "Tabelle": [
+            {
+                "DATUM": "31/03/19",
+                "APT NR.": "420",
+                "BESCHREIBUNG": "Apartment 31/03/19#420",
+                "EURO": "92,56"
+            },
+            {
+                "DATUM": "01/04/19",
+                "APT NR.": "420",
+                "BESCHREIBUNG": "Apartment 01/04/19#420",
+                "EURO": "197,20"
+            },
+            {
+                "DATUM": "02/04/19",
+                "APT NR.": "420",
+                "BESCHREIBUNG": "Apartment 02/04/19#420",
+                "EURO": "254,15"
+            },
+            {
+                "DATUM": "03/04/19",
+                "APT NR.": "420",
+                "BESCHREIBUNG": "Apartment 03/04/19#420",
+                "EURO": "215,90"
+            },
+            {
+                "DATUM": "04/04/19",
+                "APT NR.": "420",
+                "BESCHREIBUNG": "Apartment 04/04/19#420",
+                "EURO": "143,82"
+            },
+            {
+                "DATUM": "31/03/19",
+                "APT NR.": "420",
+                "BESCHREIBUNG": "Mastercard bnr 8324 SPLIT",
+                "EURO": "-903,63"
+            }
+        ],
+        "Summen": {
+            "Summe Belastungen": "903,63",
+            "Summe Zahlungen": "-903,63",
+            "offener Betrag": "0,00"
+        },
+        "MwSt.": [
+            {
+                "MwSt. %": "19.00 %",
+                "NETTO €": "0,00",
+                "MwSt €": "0,00",
+                "BRUTTO €": "0,00"
+            },
+            {
+                "MwSt. %": "7.00 %",
+                "NETTO €": "844,51",
+                "MwSt €": "59,12",
+                "BRUTTO €": "903,63"
+            },
+            {
+                "MwSt. %": "0.00 %",
+                "NETTO €": "0,00",
+                "MwSt €": "0,00",
+                "BRUTTO €": "0,00"
+            }
+        ]
+    },
+    {
+        "error": "The image is blank or does not contain any visible data."
+    }
+]

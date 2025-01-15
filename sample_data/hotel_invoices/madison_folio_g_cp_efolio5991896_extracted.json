@@ -1,0 +1,104 @@
+[
+    {
+        "Hotel Information": {
+            "Name": "MADISON Hotel GmbH",
+            "Address": "Schaarsteinweg 4, 20459 Hamburg",
+            "Contact": {
+                "Phone": "+49.40.37 666-0",
+                "Fax": "+49.40.37 666-137",
+                "Email": "info@madisonhotel.de",
+                "Website": "madisonhotel.de"
+            },
+            "Geschäftsführer": "Marlies Head, Thomas Kleinertz",
+            "AG Hamburg": "HRB 47281",
+            "VAT": "DE118 696 407",
+            "Bank": {
+                "Name": "HypoVereinsbank",
+                "BLZ": "200 300 00",
+                "Konto-Nr": "360 27 11",
+                "IBAN": "DE48 2003 0000 0036 6027 11",
+                "BIC": "HYVEDEMM300"
+            }
+        },
+        "Guest Information": {
+            "Company": "APfmeister Consulting GmbH",
+            "Address": "Friedrichstr. 123, 10117 Berlin",
+            "Guest Name": "Herr Jens Walter"
+        },
+        "Invoice Information": {
+            "Rechnungs-Nr.": "508873",
+            "Datum": "16.08.19",
+            "Zimmer": "407",
+            "Anreise": "11.08.19",
+            "Abreise": "16.08.19",
+            "Seite": "1 of 1",
+            "Benutzer ID": "RF"
+        },
+        "Charges": [
+            {
+                "Datum": "11.08.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "12.08.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "13.08.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "14.08.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "15.08.19",
+                "Beschreibung": "Übernachtung exklusive Frühstück",
+                "Belastung": 110.0,
+                "Entlastung": null
+            },
+            {
+                "Datum": "16.08.19",
+                "Beschreibung": "Mastercard IFC",
+                "Belastung": null,
+                "Entlastung": 550.0
+            }
+        ],
+        "Summary": {
+            "Total inkl. MwSt.": {
+                "Netto EUR": 514.02,
+                "MwSt. EUR": 35.98,
+                "Brutto EUR": 550.0
+            },
+            "MwSt. 7%": {
+                "Netto EUR": 514.02,
+                "MwSt. EUR": 35.98,
+                "Brutto EUR": 550.0
+            },
+            "Total": 550.0,
+            "Saldo": "0.00 EUR"
+        },
+        "Payment Information": {
+            "Finanzamt": "Hamburg Mitte",
+            "Steuernummer": "48/741/01228",
+            "Kreditkarteninstitut": {
+                "Vertragsnummer": "15648932",
+                "Beleg Nr.": "39659",
+                "Kartenkreditnummer": "XXXXXXXXXXXX0502",
+                "Transaktionsbetrag": "550.00",
+                "Verfallsdatum": "XX/XX",
+                "Genehmigter Betrag": "550.00",
+                "Terminal ID": "62964893",
+                "Genehmigungscode": "750675"
+            }
+        }
+    }
+]
