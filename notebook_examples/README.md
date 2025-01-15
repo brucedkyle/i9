@@ -17,3 +17,8 @@ The notebooks in this section demonstrate the various tasks that can be taken on
 - [Data_extraction_transformation](Data_extraction_transformation.ipynb)
 - Based on [Data extraction and transformation in ELT workflows using GPT-4o as an OCR Alternative](https://github.com/openai/openai-cookbook/blob/main/examples/Data_extraction_transformation.ipynb)
 - **Summary**:  This code defines an ELT (Extract, Load, Transform) workflow for processing hotel invoice data. It leverages GPT-4o's capabilities for OCR, data extraction, and transformation to convert unstructured PDF data into a structured format suitable for database storage and analysis.
+
+## Agentic Corrective RAG System with LangGraph
+- [Building_an_Agentic_Corrective_RAG_System_with_LangGraph](./Building_an_Agentic_Corrective_RAG_System_with_LangGraph.ipynb)
+- Based on [A Comprehensive Guide to Building Agentic RAG Systems with LangGraph](https://www.analyticsvidhya.com/blog/2024/07/building-agentic-rag-systems-with-langgraph/)
+- **Summary**: This notebook demonstrates how to build an Agentic Corrective RAG (CRAG) system using LangChain and LangGraph. The system aims to improve traditional RAG systems by addressing issues like poor retrieval and hallucinated answers.
