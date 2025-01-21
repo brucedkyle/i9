@@ -59,6 +59,47 @@ Think of it like a workflow engine where each node can be a language model perfo
  
 Example of LangGraph Workflow from [Building Reliable Agent using Advanced Rag Techniques, LangGraph, and Cohere LLM](https://www.analyticsvidhya.com/blog/2024/05/building-llm-agent-using-advanced-rag-techniques/)
 
+## Key technical advantages
+
+For the purpose of the project, a Naive RAG approach is not sufficient for the following reasons:
+
+- **No Complex Query Understanding**: Inability to break down a complex query into multiple manageable sub-steps, processing the query at a single level instead of analyzing each step and arriving at a unified conclusion.
+- **Lack of hallucinations or error handling**: Naive RAG pipelines lack a response verification step and mechanisms to handle hallucinations, preventing them from correcting errors by generating a new response.
+- **Lack of dynamic tool use**: A Naive RAG system does not allow the use of tools, calling external APIs, or interacting with databases based on workflow conditions.
+
+An Multi-Agent RAG research system was implemented to address all these issues. An agent-based framework, in fact, allows for:
+
+- **Routing and using tools**: A Routing agent can classify the user’s query and direct the flow to the appropriate node or tool. This enables context-driven decisions, such as determining whether a document requires a full summarization, if more detailed informations are required, or if the question is out of scope.
+- **Planning sub-steps**: Complex queries often need to be broken down into smaller, manageable steps. Starting from a query, it is possible to generate a list of steps to execute in order to reach a conclusion while exploring different facets of the query. For instance, if a query requires a comparison between two different sections of a document, an agent-based approach would allow recognizing this need for comparison, retrieving both sources separately, and merging them into a comparative analysis in the final response.
+- **Reflection and Error Correction**: In addition to the simple response generation, an agent-based approach would allow for adding a validation step to address potential hallucinations, errors, or responses that fail to accurately answer the user’s query. This also enables the integration of a self-correction mechanism with human-in-the-loop, which incorporates human input into automated processes. Such functionality makes agent-based RAG systems a more robust and reliable solution for enterprise applications, where reliability is a top priority.
+- **Shared Global State**: An Agent Workflow shares a global state, simplifying the management of states across multiple steps. This shared state is essential for maintaining consistency across different stages of a multi-agent process.
+
+## Prerequisites
+
+You will need:
+
+- [OpenAI API key](http://platform.openai.com/account/api-keys) with [enough credits](http://platform.openai.com/account/usage)
+- Hugging Face API Key
+
+## Set up keys
+
+Once you get your key, put it into a `.env` file as shown in the `_.env` file.
+
+## Technologies
+
+- [Chroma]()
+- [LangChain]() Also consider using Hugging Face's Transfomers Chain
+- [LangGraph]()  Also consider: [Smolagents](https://github.com/huggingface/smolagents/blob/main/docs/source/en/examples/rag.md) or [CrewAI]()
+- [Docling](https://ds4sd.github.io/docling/)
+
+
 ## References
 
 - [Hands-on Implementation of our Agentic RAG System with LangGraph](https://www.analyticsvidhya.com/blog/2024/07/building-agentic-rag-systems-with-langgraph/)
+- [Building RAG Research Multi-Agent with LangGraph](https://medium.com/@nicoladisabato_19197/building-rag-research-multi-agent-with-langgraph-1bd47acac69f)
+- [RAG with HuggingFace models and Chroma db](https://medium.com/@prajwal_/rag-with-huggingface-models-and-chroma-db-3f6ade28b5fe)
+- [Improve RAG performance using Cohere Rerank](https://aws.amazon.com/it/blogs/machine-learning/improve-rag-performance-using-cohere-rerank/)
+
+### Research paper
+
+- [Corrective Retrieval Augmented Generation](https://arxiv.org/pdf/2401.15884)
